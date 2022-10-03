@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.input-area {
+    display: 100%;
+    padding: 5vw;
+    border: 1px solid black;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-table {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.data-table,
+tr,
+td,
+th {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.table-area {
+    display: none;
+}
+
+.minus {
+    display: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-numbers {
+    border: 1px solid;
+}
+
+.page{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
